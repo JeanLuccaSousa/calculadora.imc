@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Imc</title>
+    <link rel="stylesheet" href="calculadora.css" media="screen">
+  
+  
+
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <legend><b>Calculadora imc</b></legend>
+                <br>
+                <div class="inputbox"> 
+                    <input type="text" name="txta" id="altura" class="inputUser" onfocus="value = '' " required>
+                    <label for="altura" class="label_input">Digite sua Altura</label>
+                    
+                </div>
+                <br>
+
+                <div class="inputbox"> 
+                    <input type="text" name="txtp" id="peso" class="inputUser" onfocus="value = '' " required>
+                    <label for="peso" class="label_input">Digite seu Peso</label>
+                   
+                </div>
+
+                <br>
+                <button type="button" class="botao" value="calcular" onclick="calcular()"><b>Calcular</b></button>
+                <br><br><br>
+
+                <div id="res"></div>
+
+                <div>
+                    <section>
+                        <legend><b>Tabela de Valores</b></legend>
+                    </section>
+                    <br>
+                    <table class="tabela">
+                        <tr class="alternado">
+                            <th>IMC</th>
+                            <th>Classificação</th>
+                        </tr>
+        
+                        <tr>
+                            <td>abaixo de 18,5</td>
+                            <td>abaixo do peso</td>
+                        </tr>
+        
+                        <tr class="alternado">
+                            <td>entre 18,6 e 24,9</td>
+                            <td>Peso ideal (parabéns)</td>
+                        </tr>
+        
+                        <tr>
+                            <td>entre 25,0 e 29,9</td>
+                            <td>Levemente acima do peso</td>
+                        </tr>
+        
+                        <tr class="alternado">
+                            <td>entre 30,0 e 34,9</td>
+                            <td>Obesidade grau I</td>
+                        </tr>
+        
+                        <tr>
+                            <td>entre 35,0 e 39,9</td>
+                            <td>Obesidade grau II (severa)</td>
+                        </tr>
+        
+                        <tr class="alternado">
+                            <td>acima de 40</td>
+                            <td>Obesidade III (mórbida)</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </fieldset>
+    </form>
+</div>
+
+<script src="calculdora.js"></script>
+
+</body>
+</html>
