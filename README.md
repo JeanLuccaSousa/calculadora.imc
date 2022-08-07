@@ -1,2 +1,2 @@
-# calculadora_imc
- calculadora feita com HTML, CSS e JAVASCRIPT
+# Calculadora_IMC
+ Calculadora feita com HTML, CSS e JAVASCRIPT
